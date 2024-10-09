@@ -10,6 +10,7 @@ public class Main {
         try {
 
             System.out.printf("%5s %20s %10s\n", "ID", "Name", "Gross Pay");
+            System.out.println("-".repeat(40));
 
             BufferedReader br = new BufferedReader(new FileReader(fileName));
             br.readLine(); // Skip the header
@@ -35,7 +36,7 @@ public class Main {
 
             br.close();
         } catch (Exception e) {
-            System.out.println("Whoops, we can't do that." + e.getMessage());
+            System.out.println("Whoops, we can't do that." + e.getMessage()); // Debugging
         }
     }
 }
