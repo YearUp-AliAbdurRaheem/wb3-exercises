@@ -21,7 +21,7 @@ public class Main {
                         case "hansel_and_gretel", "hansel and gretel", "h":
                             userSelection = "hansel_and_gretel.txt"; break;
                         case "mary_had_a_little_lamb", "mary had a little lamb", "m":
-                            userSelection = "mary_had_a_little_lamb.txt"; break
+                            userSelection = "mary_had_a_little_lamb.txt"; break;
                         case "q":
                             return;
                     }
