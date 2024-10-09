@@ -1,11 +1,13 @@
 package com.pluralsight;
 
 import java.util.InputMismatchException;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
         final String[] QUOTES = {
                 "All right, Mr. DeMille, I'm ready for my closeup.",
                 "Frankly, my dear, I don’t give a damn.",
@@ -23,10 +25,13 @@ public class Main {
 
         while (true) {
 
-            System.out.print("Enter a number to get a quote:\n>>> ");
+            System.out.print("Enter a number to get a quote or a (r)andom one:\n>>> ");
 
             try {
                 String userInputString = scanner.nextLine();
+                if (userInputString.equalsIgnoreCase("r")) {
+                    System.out.println(QUOTES[random.nextInt(10) +1]); continue;
+                }
                 int index = Integer.parseInt(userInputString);
                 System.out.println(QUOTES[--index]);
             }
