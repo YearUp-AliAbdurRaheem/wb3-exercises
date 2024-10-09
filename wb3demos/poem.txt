@@ -1,0 +1,26 @@
+“Syntax Error”
+
+I type, and the lines blur,
+A language I thought I knew.
+But now it’s tangled, cold and gray,
+Each loop pulls me further through.
+
+A missing brace, an endless call,
+I’m lost in a sea of red.
+No matter how I try to fix,
+The error still lives in my head.
+
+Variables forgotten, paths misplaced,
+I chase ghosts through a broken flow,
+Was I ever good enough for this?
+A truth I fear I’ll never know.
+
+The cursor blinks, it taunts, it waits,
+But nothing seems to work.
+In the silence of my crashing code,
+I wonder if it’s all a quirk.
+
+Compile me, break me, run me dry,
+Until there’s nothing left but rust.
+A simple program, lost in loops,
+Doomed by logic I can’t trust.
