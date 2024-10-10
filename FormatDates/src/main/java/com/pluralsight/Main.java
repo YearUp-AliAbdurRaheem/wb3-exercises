@@ -14,6 +14,7 @@ public class Main {
         ZonedDateTime currentLocalTime = ZonedDateTime.now();
 
         // Set all of dates and times
+        // The info on how to do it like this was found at https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
         DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("MM/dd/yyyy");
         DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
