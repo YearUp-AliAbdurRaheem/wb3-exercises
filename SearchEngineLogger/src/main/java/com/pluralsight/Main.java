@@ -32,12 +32,14 @@ public class Main {
                 // Check if X
                 if (searchTerm.equalsIgnoreCase("X")) {
                     bw.write(formattedDate + " exit" + "\n");
-                    return;
+                    bw.close();
+                    break;
                 }
 
 
                 bw.write(formattedDate + searchTerm + "\n");
             } while (true);
+            bw.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
